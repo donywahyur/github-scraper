@@ -3,7 +3,6 @@ version: '3.8'
 services:
   scrapper:
     build: .
-    container_name: github-scraper-api
     env_file:
       - ./.env
     volumes:
